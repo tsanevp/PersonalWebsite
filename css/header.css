@@ -1,0 +1,35 @@
+ .my_container_div {
+    background-color: papayawhip;
+ }
+
+ .my_left_div {
+   /* text-align: left; */
+   flex: 1;
+   max-width: max-content;
+   max-height: max-content;
+ }
+
+ .my_right_div {
+   flex: auto;
+   text-align: right;
+ }
+
+ .header {
+  border: medium brown dashed;
+  padding: 1em;
+  display: flex;
+  height: 15px;
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-box; */
+ }
+
+ .holdup {
+  background-color: transparent;
+  color: green;
+  border: 2px solid #04aa6d;
+  /* style="color:blue;font-weight:bold">About Me</span> --> */
+
+  /* margin-right: 25px; */
+  /* height: 42px; */
+ }

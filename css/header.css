@@ -1,5 +1,5 @@
- .my_container_div {
-    background-color: papayawhip;
+ .page {
+    background: lightcyan;
  }
 
  .my_left_div {
@@ -12,24 +12,42 @@
  .my_right_div {
    flex: auto;
    text-align: right;
+   /* color: aqua; */
+   align-self: center;
  }
 
  .header {
-  border: medium brown dashed;
+  /* border: medium solid black; */
   padding: 1em;
   display: flex;
-  height: 15px;
-  /* display: -webkit-box;
-  display: -ms-flexbox;
-  display: -moz-box; */
+  height: 50px;
+  /* background-color: azure; */
  }
 
  .holdup {
   background-color: transparent;
-  color: green;
-  border: 2px solid #04aa6d;
-  /* style="color:blue;font-weight:bold">About Me</span> --> */
+  color: black; 
+  border: 3px solid black;
+  border-radius: 20px;
+  font-size: 30px;
+ }
 
-  /* margin-right: 25px; */
-  /* height: 42px; */
+ .title {
+  text-align: center;
+  font-size: 50px;
+ }
+
+ footer {
+  text-align: center;
+  /* text-transform: uppercase; */
+ }
+
+ .footer_images a {
+  text-decoration: none;
+ }
+
+ .footer_images img {
+  border: 5px;
+  width: 30px;
+  height: auto;
  }

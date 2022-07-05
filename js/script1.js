@@ -11,9 +11,14 @@ $('#Resume').click(function() {
 });
 
 $('#ContactMe').click(function() {
-    window.location='ContactMe.html';
+    // window.location='ContactMe.html';
+    email()
 });
 
 $('#homeImg').click(function() {
     window.location='index.html';
 });
+
+function email() {
+    window.open('mailto: petertsanev7@gmail.com');
+}

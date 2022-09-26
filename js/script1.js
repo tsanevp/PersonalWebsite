@@ -7,7 +7,7 @@ $('#Projects').click(function() {
 });
 
 $('#Resume').click(function() {
-    window.location='https://drive.google.com/file/d/1E_ClEYxCbqXSlmUSKDwRmD3upcLa59T8/view?usp=sharing';
+    window.location='https://drive.google.com/file/d/1LlCBOATtb7J9nT_3Epm4_MXoO5nxJCIv/view?usp=sharing';
 });
 
 $('#ContactMe').click(function() {

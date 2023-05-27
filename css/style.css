@@ -43,7 +43,9 @@
 }
 
 .nav-bar {
-    width: 40%;
+    width: 60%;
+    display: inline-flex;
+    justify-content: flex-end;
 }
 
 .nav-bar a {
@@ -51,6 +53,12 @@
     font-size: 20px;
     font-weight: 500;
     color: #00ADB5;
+    transition: .5s;
+}
+
+.nav-bar a:hover {
+    color: #6DD5DA;
+    transition: .5s;
 }
 
 
@@ -116,18 +124,7 @@
     }
 
 
-#btn-1 {
-    background-color: #00ADB5;
-    color: #222831;
-}
-
-#btn-1:hover {
-    color: #00ADB5;
-    background-color: transparent;
-    transition: .5s;
-}
-
-#btn-2:hover {
+.btn:hover {
     color: #222831;
     background-color: #00ADB5;
     transition: .5s;

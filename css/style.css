@@ -131,8 +131,8 @@
 }
 
 #footer {
-    height: 50px;
-    margin-top: -50px;
+    height: 75px;
+    margin-top: -75px;
     position: relative;
     display: flex;
     align-items: center;
@@ -141,4 +141,63 @@
 .footer-text {
     color: #EEEEEE;
     margin-left: 25px;
+    font-size: 18px;
+}
+
+.icon-links {
+    margin-left: 10px;
+    width: 130px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.icon-links a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid #EEEEEE;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #EEEEEE;
+    transition: .5s;
+}
+
+.icon-links a:hover {
+    background-color: #EEEEEE;
+    color: #222831;
+    transition: .5s;
+}
+
+@media screen and (min-width: 1201px) {
+    .logo {
+        background-color: navajowhite;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .logo {
+        background-color: palevioletred;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        background-color: purple;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        background-color: chartreuse;
+    }
 }

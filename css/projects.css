@@ -1,19 +1,29 @@
 .middle-container {
     flex-direction: column;
     justify-content: flex-start;
+    height:auto ;
     margin-bottom: 250px;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    color: #00ADB5;
+    margin: 50px 0px;
+}
+
 .title {
-    margin-top: 150px;
+    margin-top: 300px;
     font-size: 60px;
     color: #EEEEEE;
 }
 
-.projects {
-    display: inline-flex;
-    margin-bottom: 50px;
-    color: #00ADB5;
+.projects .container {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-title {
@@ -22,30 +32,36 @@
 
 .project-description {
     color: #EEEEEE;
-    font-size: 16px;
-}
-
-.projects > div {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.left-column > * {
-    margin: 5px 50px;
+    text-align: center;
+    width: 75%;
+    margin-top: 10px;
 }
 
 .btn-box {
-    margin-top: 20px;
+    margin-top: 30px;
+    width: fit-content;
 }
 
-.right-column {
-    align-items: center;
+.container img {
+    margin-top: 40px;
 }
 
-.project-img {
-    width: 200px;
-    height: 200px;
+#discord-img {
+    width: 600px;
+    height: 300px;
+}
+
+#eventbrite-img {
+    width: 800px;
+}
+
+#checkers-img {
+    width: 500px;
+}
+
+hr {
+    width: 50%;               
+    background-color: #222831;
+    height: 5px;
+    border: none;
 }

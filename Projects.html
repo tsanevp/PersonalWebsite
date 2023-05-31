@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/projects.css" rel="stylesheet">
+
+    <style>
+    </style>
 </head>
-<body>
-    
+
+<body class="gradient-background">
+
+    <header class="header" id="navbar">
+        <a href="./index.html" class="logo">Peter Tsanev</a>
+
+        <nav class="nav-bar">
+            <a href="./index.html">Home</a>
+            <a href="./AboutMe.html">About Me</a>
+            <a href="./Projects.html">Projects</a>
+            <a href="https://drive.google.com/file/d/1y1H1nBRL6PMmDbn3fVsVGbp3v5113FkT/view?usp=sharing"
+                target="_blank">Resume</a>
+            <a href="./ContactMe.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="middle-container">
+        <h1 class="title">Welcome To My Projects</h1>
+        <hr>
+        <div class="projects project-1">
+            <div class="left-column">
+                <h1 class="project-title">Discord MarketPlace Bot</h1>
+                <p class="project-description">
+                    Lorem ipsum dolor sit amet. At repellat reprehenderit et libero quae qui aspernatur pariatur et
+                    quibusdam eligendi. Quo harum molestias et sint illo non officiis Quis qui laborum eveniet ut
+                    possimus fuga et sapiente nostrum sed placeat unde? Ea Quis dolor sit amet aperiam et quos dicta
+                    est minima iure quo voluptas placeat sit velit repellat non voluptates omnis.
+                </p>
+                <div class="btn-box">
+                    <a href="#" class="btn">Try It</a>
+                    <a href="https://github.com/tsanevp/MarketPlace-Bot" class="btn" target="_blank">View Code</a>
+                </div>
+            </div>
+            <div class="right-column">
+                <img class="project-img" src="./images/home.png" alt="placeholder">
+            </div>
+        </div>
+        <hr>
+
+        <div class="projects project-2">
+            <div class="left-column">
+                <h1 class="project-title">Add Attendees To Eventbrite</h1>
+                <p class="project-description">
+                    Lorem ipsum dolor sit amet. At repellat reprehenderit et libero quae qui aspernatur pariatur et
+                    quibusdam eligendi. Quo harum molestias et sint illo non officiis Quis qui laborum eveniet ut
+                    possimus fuga et sapiente nostrum sed placeat unde? Ea Quis dolor sit amet aperiam et quos dicta
+                    est minima iure quo voluptas placeat sit velit repellat non voluptates omnis.
+                </p>
+                <div class="btn-box">
+                    <a href="#" class="btn">Try It</a>
+                    <a href="https://github.com/tsanevp/AddAttendeesToEventBrite" class="btn" target="_blank">View Code</a>
+                </div>
+            </div>
+            <div class="right-column">
+                <img class="project-img" src="./images/home.png" alt="placeholder">
+            </div>
+        </div>
+        <hr>
+
+        <div class="projects project-3">
+            <div class="left-column">
+                <h1 class="project-title">Checkers Board Game</h1>
+                <p class="project-description">
+                    Lorem ipsum dolor sit amet. At repellat reprehenderit et libero quae qui aspernatur pariatur et
+                    quibusdam eligendi. Quo harum molestias et sint illo non officiis Quis qui laborum eveniet ut
+                    possimus fuga et sapiente nostrum sed placeat unde? Ea Quis dolor sit amet aperiam et quos dicta
+                    est minima iure quo voluptas placeat sit velit repellat non voluptates omnis.
+                </p>
+                <div class="btn-box">
+                    <a href="#" class="btn">Try It</a>
+                    <a href="https://github.com/tsanevp/Checkers" class="btn" target="_blank">View Code</a>
+                </div>
+            </div>
+            <div class="right-column">
+                <img class="project-img" src="./images/home.png" alt="placeholder">
+            </div>
+        </div>
+    </div>
+        <hr>
+
+    <div class="bottom-container" id="footer">
+        <p class="footer-text">Made from scratch in 2023 &nbsp|</p>
+
+        <div class="icon-links">
+            <a href="https://www.linkedin.com/in/tsanevpeter/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="mailto:petertsanev7@gmail.com"><i class='bx bxl-gmail'></i></a>
+            <a href="https://github.com/tsanevp" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+    </div>
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 5) {
+                document.getElementById("navbar").style.background = "rgb(57, 62, 70, 90%)";
+                document.getElementById("navbar").style.transition = ".5s" 
+            } else {
+                document.getElementById("navbar").style.background = "none";
+            }
+        }
+    </script>
 </body>
+
 </html>

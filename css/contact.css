@@ -17,6 +17,11 @@ form {
   font-size: 20px;
 }
 
+.intro-msg {
+  width: 360px;
+  text-align: center;
+}
+
 .form-input {
   width: 356px;
   padding: 5px;
@@ -41,10 +46,11 @@ textarea {
   color: #00ADB5;
   font-weight: 600;
   transition: .5s;
+  cursor: pointer;
 }
 
 
-.btn:hover {
+.form-submit-btn:hover {
   color: #222831;
   background-color: #00ADB5;
   transition: .5s;

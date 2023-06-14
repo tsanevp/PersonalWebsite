@@ -1,6 +1,11 @@
+  /* 0E0B16 */
+  /* A239CA
+  4717F6 */
+  /* E7DFDD */
+
 form {
-  background-color: #DCD7C9;
-  color: #A27B5C;
+  background-color: #E7DFDD;
+  color: #4717F6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,9 +30,10 @@ form {
 .form-input {
   width: 356px;
   padding: 5px;
-  border: 2px solid #EEEEEE;
+  border: 2px solid #E7DFDD;
   border-radius: 8px;
   margin-top: 2px;
+  outline: none;
 }
 
 textarea {
@@ -41,9 +47,9 @@ textarea {
   align-items: center;
   width: 100px;
   height: 40px;
-  border: 2px solid #A27B5C;
+  border: 2px solid #4717F6;
   border-radius: 8px;
-  color: #A27B5C;
+  color: #4717F6;
   font-weight: 600;
   transition: .5s;
   cursor: pointer;
@@ -51,7 +57,7 @@ textarea {
 
 
 .form-submit-btn:hover {
-  color: #222831;
-  background-color: #A27B5C;
+  color: #E7DFDD;
+  background-color: #4717F6;
   transition: .5s;
 }

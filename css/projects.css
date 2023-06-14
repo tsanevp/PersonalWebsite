@@ -1,25 +1,26 @@
+/* Styling middle container and childern */
 .middle-container {
     flex-direction: column;
-    justify-content: flex-start;
-    height:auto ;
-    margin-bottom: 250px;
+    height:auto;
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-top: 200px;
+    font-size: 60px;
+    color: #E7DFDD;
 }
 
 .projects {
     display: flex;
     flex-direction: column;
-    color: #00ADB5;
-    margin: 50px 0px;
+    justify-content: center;
+    height: 550px;
+    color: #4717F6;
 }
 
-.title {
-    margin-top: 300px;
-    font-size: 60px;
-    color: #EEEEEE;
-}
-
-.projects .container {
-    margin: 20px 0px;
+/* Styling initially visible project content */
+.visible-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,25 +31,14 @@
     font-size: 40px;
 }
 
-.project-description {
-    color: #EEEEEE;
-    text-align: center;
-    width: 75%;
+/* Styling visible images */
+.visible-content img {
     margin-top: 10px;
-}
-
-.btn-box {
-    margin-top: 30px;
-    width: fit-content;
-}
-
-.container img {
-    margin-top: 40px;
+    height: 400px;
 }
 
 #discord-img {
-    width: 600px;
-    height: 300px;
+    width: 800px;
 }
 
 #eventbrite-img {
@@ -56,12 +46,49 @@
 }
 
 #checkers-img {
-    width: 500px;
+    width: 400px;
 }
 
-hr {
-    width: 50%;               
-    background-color: #222831;
-    height: 5px;
-    border: none;
+/* Styling hover functionality */
+.hover {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    background-color: transparent;
+}
+
+.hover:hover {
+    background-color: rgba(14, 11, 22, .9);
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Styling hover content */
+.hover-content {
+    display: none;
+}
+
+.hover:hover .hover-content {
+    color: #E7DFDD;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-description {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-box {
+    margin-top: 30px;
+    width: fit-content;
 }

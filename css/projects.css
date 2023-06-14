@@ -1,12 +1,12 @@
 /* Styling middle container and childern */
 .middle-container {
     flex-direction: column;
-    height:auto;
+    height: auto;
     margin-bottom: 50px;
 }
 
 .title {
-    margin-top: 200px;
+    margin-top: 150px;
     font-size: 60px;
     color: #E7DFDD;
 }

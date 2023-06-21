@@ -18,12 +18,12 @@
 
 ### The challenge
 
-- Intuitive navigation and transition between pages:
-    - Since this page doesn’t have the conventional layout, it can be hard to navigate for some people. It takes a lot of feedback for me to recognize what works and does not work for someone who’s visiting for the first time.
-- Keeping files short and sweet — reusable and maintainable
-    - I just don’t want to look at my code and moan
-    - But who can guarantee that will never happen
-    - I just try to avoid that as much as possible
+- Creating a personal website from scratch with no prior knowledge of HTML, CSS, or JS:
+    - Since I had no experience with design or web development, it was difficult to create a website that was appealing to the eye and easy to navigate. It took a lot of feedback for me to recognize what works and does not.
+- Finding a color scheme that suited my site's content:
+    - I wanted to use colors that look good on any monitor and screen.
+- Keeping my code readable and easy to understand:
+    - With zero previous experience, I was learning best coding practices on the go.
     
 ### Screenshot
 
@@ -44,13 +44,14 @@ Live Site URL: [tsanevp.github.io](https://tsanevp.github.io/PersonalWebsite/ind
 ### What I learned
 
 ```
-
+- It is best to take a mobile-first approach when designing and building a website. It makes it easier to create a responsive site.
+- Creating a website using vanilla HTML, CSS, and JS is a pain but a good learning experience.
 ```
 
 ### Continued development
 
 - [ ]  Make the website responsive
-- [ ]  Add more JS to improve page design
+- [ ]  Add more JS to improve the page design
 - [ ]  Add more technical projects
 - [ ]  Add personal non-technical projects/work experience
 

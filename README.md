@@ -43,10 +43,8 @@ Live Site URL: [tsanevp.github.io](https://tsanevp.github.io/PersonalWebsite/ind
 
 ### What I learned
 
-```
 - It is best to take a mobile-first approach when designing and building a website. It makes it easier to create a responsive site.
 - Creating a website using vanilla HTML, CSS, and JS is a pain but a good learning experience.
-```
 
 ### Continued development
 

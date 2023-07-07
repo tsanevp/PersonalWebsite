@@ -1,4 +1,6 @@
 # Personal Website
+This website was built before I learned Bootstrap, JS, and other packages/libraries that could have improved the quality/readability of my code. I'm choosing to keep the code as is so that once I build out an improved version of my website, I can reference where I started. 
+
 
 ## Table of contents
 

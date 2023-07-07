@@ -35,13 +35,6 @@
 .visible-content img {
     margin-top: 10px;
     height: 400px;
-}
-
-#discord-img {
-    width: 800px;
-}
-
-#eventbrite-img {
     width: 800px;
 }
 
@@ -89,6 +82,13 @@
 }
 
 .btn-box {
-    margin-top: 30px;
+    font-size: 14px;
     width: fit-content;
+}
+
+.btn-box a {
+    width: 120px;
+    height: 40px;
+    color: #E7DFDD;
+    margin: 0px 10px;
 }

@@ -26,6 +26,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Header styling */
 .header {
     top: 0px;
     left: 0px;
@@ -63,7 +64,7 @@
     transition: .5s;
 }
 
-
+/* Body styling */
 .middle-container {
     height: 100vh;
     display: flex;
@@ -79,13 +80,6 @@
     align-items: center;
     text-align: center;
 }
-
-/* .profile-pic {
-    height: 150px;
-    width: 150px;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-} */
 
 .intro-msg {
     font-size: 60px;
@@ -109,7 +103,7 @@
     width: 350px;
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .btn-box a {
@@ -125,13 +119,13 @@
     transition: .5s;
 }
 
-
 .btn:hover {
     color: #E7DFDD;
     background-color: #4717F6;
     transition: .5s;
 }
 
+/* Footer styling */
 #footer {
     height: 50px;
     margin-top: -50px;
@@ -172,33 +166,3 @@
     color: #0E0B16;
     transition: .5s;
 }
-
-/* @media screen and (min-width: 1201px) {
-    .logo {
-        background-color: navajowhite;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .logo {
-        background-color: palevioletred;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .logo {
-        background-color: purple;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .logo {
-        background-color: blue;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .logo {
-        background-color: chartreuse;
-    }
-} */
